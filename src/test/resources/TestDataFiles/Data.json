@@ -1,0 +1,6 @@
+{
+"LeftText": "Appium",
+  "AssertLeftText": "Appium",
+
+  "AssertAccessibility": "Accessibility Node Provider"
+}
