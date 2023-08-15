@@ -13,7 +13,7 @@ public class ScaleToFit {
         this.driver = driver;
     }
 
-    private final By getScaleToFitPageText = AppiumBy.xpath("//android.widget.TextView[@content-desc='Task Conquer World']//parent::android.widget.LinearLayout/android.widget.CheckBox");
+    private final By getScaleToFitPageText = AppiumBy.xpath("//android.widget.TextView[@text ='Graphics/ScaleToFit']");
 
     public ScaleToFit assertScaleToFitPageIsOpened() {
         SHAFT.Validations.assertThat().object(driver.element().getText(getScaleToFitPageText)).equals("Graphics/ScaleToFit");

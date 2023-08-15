@@ -3,7 +3,6 @@ package Pages;
 import com.shaft.driver.SHAFT;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 public class CustomTitle {
     private SHAFT.GUI.WebDriver driver;

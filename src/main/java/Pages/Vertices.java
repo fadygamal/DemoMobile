@@ -17,7 +17,7 @@ public class Vertices {
     private final By getTheSwipeElement = AppiumBy.xpath("//android.widget.FrameLayout[@resource-id='android:id/content']//android.view.View");
 
     public Vertices swipeRight() {
-        new MobileActions(driver.getDriver()).swipeRightOnElement(getTheSwipeElement, (WebDriver) driver);
+        new MobileActions(driver.getDriver()).swipeRightOnElement(getTheSwipeElement,driver.getDriver());
         return this;
     }
 
